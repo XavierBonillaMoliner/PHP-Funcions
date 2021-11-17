@@ -1,6 +1,6 @@
 <?php
 
-    function numeroparoimpar($numero){
+    function numero_par_o_impar($numero){
         if ($numero % 2 == 0){
             echo "L'edat es par";
         }
@@ -9,7 +9,7 @@
         }
     }
 
-    numeroparoimpar(15);
+    numero_par_o_impar(25);
 
 
 
